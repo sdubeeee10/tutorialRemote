@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-color: #F6F4F1;
+}
+.logo {
+  line-height: 60px;
+  background-color: white;
+}
+.logo-left {
+  margin-left: 150px;
+  display: inline-block;
+}
+.logo-left img {
+  width: 40px;
+  height: 40px;
+}
+.logo-left a {
+  color: #846C63;
+  font-size: 2.1rem;
+}
+.logo-right {
+  margin-right: 150px;
+  float: right;
+  display: inline-block;
+}
+.logo-right ul li {
+  margin: 0px 10px;
+  display: inline-block;
+}
+.logo-right ul li a {
+  padding: 27px 5px;
+  color: #88AAA9;
+  font-weight: 100;
+}
+.logo-right ul li a:hover {
+  background-color: #BDB1AD;
+}
+.logo-right ul li .msg_icon {
+  padding: 5px 15px;
+  background-color: blue;
+  border-radius: 4px;
+}
+/*contents*/
+.middle {
+margin: 10px 150px;
+}
+
+.contents-col .title {
+  color: #846C63;
+  margin: 15px 0px;
+}
+
+.card-col .card {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.card-col .card a {
+  color: white;
+  font-size: 50px;
+}
+.contents-left {
+  display: inline-block;
+}
+.contents-left .section li{
+  display: inline-block;
+  width: 150px;
+  height: 270px;
+  margin: 20px;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+
+}
+.section p {
+  margin: 10px;
+  color:#88AAA9;
+}
+.section a {
+  margin: 10px;
+  color:#846C63;
+}
+.section img {
+  width: 150px;
+  height: 150px;
+}
+
+.contents-right {
+  display: inline-block;
+  margin: 5px;
+  color: #white;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #26a69a;
+  margin: 10px 0px;
+  border-radius: 4px;
+}
+
+.contents-right .title {
+  color: #846C63;
+}
+
+.contents-right .section ul {
+  list-style: none;
+}
+
+.contents-right .section ul li {
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+}
+
+.contents-right .section ul li img {
+  width: inherit;
+}
+
+/*footer*/
+footer {
+  background-color: #846C63;
+  font-size: 20px;
+  
+}
+
+footer .sec-whole {
+  margin: 0px 150px;
+}
+footer .sec {
+  margin: 0px 30px;
+  display: inline-block;
+}
+
+footer .sec li {
+  font-size: 7px;
+  margin: 5px 0px;
+  list-style: none;
+}
